@@ -109,6 +109,16 @@ export function PartnerShowcase() {
       category: "l2",
     },
     {
+      id: "superfluid",
+      name: "Superfluid",
+      logo: "/partners/superfluid.webp",
+      description: "Superfluid is a Web3 streaming payments protocol for handling subscriptions, salaries, rewards, or any other composable stream of value on a per-second basis.",
+      lookingFor:
+        "Superfluid wants to support projects that natively integrate money streaming as a core mechanic. They’re looking for applications where continuous, programmable payments unlock new user or protocol behaviors.",
+      website: "https://www.superfluid.finance/",
+      category: "infra",
+    },
+    {
       id: "fhenix",
       name: "Fhenix",
       logo: "/partners/fhenix.webp",

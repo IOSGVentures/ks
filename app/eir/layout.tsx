@@ -3,8 +3,9 @@ import type { Metadata } from "next";
 
 // Metadata moved from page.tsx
 export const metadata: Metadata = {
+  metadataBase: new URL("https://kickstarter.iosg.vc"),
   title: "IOSG Entrepreneur in Residence Program",
-  description: "Shape your vision and build a foundation for your venture with funding, mentorship, and network access, designed for founders at the pre-idea stage.",
+  description: "Shape your vision and build a foundation for your venture with funding, mentorship, and ecosystem support, designed for founders at the pre-idea stage.",
   openGraph: {
     title: "IOSG Entrepreneur in Residence Program",
     description: "An in-person program in HK/SZ for pre-idea founders to validate concepts with funding and mentorship.",

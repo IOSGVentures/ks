@@ -131,7 +131,7 @@ export default function EirPage() {
                 <Image src="/eir.webp" alt="IOSG EIR Logo" width={700} height={100} className="mx-auto" priority />
               </h1>
               <p className="text-xl text-white/80 mb-8">
-                Shape your vision and build a foundation for your venture with funding, mentorship, and network access, designed for founders at the pre-idea stage.
+                Shape your vision and build a foundation for your venture with funding, mentorship, and ecosystem support, designed for founders at the pre-idea stage.
               </p>
               <Button size="lg" asChild className="bg-white text-primary hover:bg-white/90">
                 <Link href={siteConfig.links.apply.eir} target="_blank">
@@ -158,7 +158,7 @@ export default function EirPage() {
                   The IOSG Entrepreneur in Residence (EIR) Program is tailored for founders at the very beginning—those refining ideas, researching markets, and testing hypotheses.
                 </p>
                 <p className="text-lg text-muted-foreground mb-4">
-                  Over six months in Hong Kong and Shenzhen, EIRs receive funding, mentorship, and network access to shape their vision and build a venture-scale business
+                  Over six months in Hong Kong and Shenzhen, EIRs receive funding, mentorship, and ecosystem support to shape their vision and build a venture-scale business
                   foundation. It's a space to experiment, iterate, and validate before launching formally.
                 </p>
                 <p className="text-lg text-muted-foreground">
