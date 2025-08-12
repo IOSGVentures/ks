@@ -50,6 +50,16 @@ export function PartnerShowcase() {
       category: "infra",
     },
     {
+      id: "aurora",
+      name: "Aurora",
+      logo: "/partners/aurora.webp",
+      description:
+        "Aurora is an Ethereum-compatible blockchain network built on the NEAR Protocol. It offers high throughput, low fees, and fast finality while maintaining full compatibility with Ethereum tools and smart contracts.",
+      lookingFor: "Aurora is looking for teams building high-performance, EVM-compatible chains and decentralized applications that leverage the scalability of the NEAR Protocol.",
+      website: "https://aurora.dev/",
+      category: "infra",
+    },
+    {
       id: "avalanche",
       name: "Avalanche",
       logo: "/partners/avalanche.webp",
@@ -212,21 +222,6 @@ export function PartnerShowcase() {
 
   return (
     <div ref={ref} className="relative">
-      <div className="flex flex-col md:flex-row gap-4 mb-8 items-start md:items-center justify-center">
-        {/* <div className="relative w-full md:w-64">
-          <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
-          <Input type="search" placeholder="Search partners..." className="pl-8" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
-        </div> */}
-
-        <div className="flex flex-wrap gap-2">
-          {categories.map((category) => (
-            <Badge key={category.id} variant={selectedCategory === category.id ? "default" : "outline"} className="cursor-pointer" onClick={() => setSelectedCategory(category.id)}>
-              {category.name}
-            </Badge>
-          ))}
-        </div>
-      </div>
-
       <motion.div
         className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4"
         initial={{ opacity: 0 }}
