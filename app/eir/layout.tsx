@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "Shape your vision and build a foundation for your venture with funding, mentorship, and ecosystem support, designed for founders at the pre-idea stage.",
   openGraph: {
     title: "IOSG Entrepreneur in Residence Program",
-    description: "An in-person program in HK/SZ for pre-idea founders to validate concepts with funding and mentorship.",
+    description: "An in-person program for pre-idea founders to validate concepts with funding and mentorship.",
     url: "https://kickstarter.iosg.vc/eir",
     siteName: "IOSG EIR",
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "IOSG Entrepreneur in Residence Program",
-    description: "An in-person program in HK/SZ for pre-idea founders to validate concepts with funding and mentorship.",
+    description: "An in-person program for pre-idea founders to validate concepts with funding and mentorship.",
     images: ["/poster/eir-banner.webp"],
   },
 };

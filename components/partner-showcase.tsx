@@ -170,6 +170,16 @@ export function PartnerShowcase() {
       category: "l2",
     },
     {
+      id: "polygon",
+      name: "Polygon",
+      logo: "/partners/polygon.webp",
+      description:
+        "Polygon is the leading platform for Ethereum scaling and infrastructure development. Its suite of products offers developers access to L2 solutions (ZK and Optimistic Rollups), sidechains, hybrid solutions, enterprise chains, and data availability solutions.",
+      lookingFor: "Polygon welcomes innovative projects across DeFi, Gaming, RWA, and Social applications that leverage their scaling solutions and infrastructure offerings.",
+      website: "https://polygon.technology/",
+      category: "l2",
+    },
+    {
       id: "starknet",
       name: "Starknet",
       logo: "/partners/starknet.webp",

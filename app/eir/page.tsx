@@ -91,7 +91,7 @@ export default function EirPage() {
     },
     {
       title: "In-Person Collaboration",
-      description: "Benefit from an immersive, in-person program based in Hong Kong and Shenzhen for deep collaboration.",
+      description: "Benefit from an immersive, in-person program based in Hong Kong, Shenzhen, New York, San Francisco, and Singapore for deep collaboration.",
       icon: <MapPin className="h-6 w-6" />,
     },
   ];
@@ -158,7 +158,7 @@ export default function EirPage() {
                   The IOSG Entrepreneur in Residence (EIR) Program is tailored for founders at the very beginning—those refining ideas, researching markets, and testing hypotheses.
                 </p>
                 <p className="text-lg text-muted-foreground mb-4">
-                  Over six months in Hong Kong and Shenzhen, EIRs receive funding, mentorship, and ecosystem support to shape their vision and build a venture-scale business
+                  Over six months in Hong Kong, Shenzhen, New York, San Francisco, and Singapore, EIRs receive funding, mentorship, and ecosystem support to shape their vision and build a venture-scale business
                   foundation. It's a space to experiment, iterate, and validate before launching formally.
                 </p>
                 <p className="text-lg text-muted-foreground">

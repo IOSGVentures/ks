@@ -30,7 +30,7 @@ export function FaqSection() {
     {
       question: "Looking for something even earlier-stage?",
       answer:
-        "If you're still refining your product thesis and exploring early product-market fit, our Entrepreneur in Residence (EIR) Program might be a better fit. This 6-month, in-person program in Hong Kong and Shenzhen provides funding, mentorship, and resources to help founders experiment, build, and validate ideas.",
+        "If you're still refining your product thesis and exploring early product-market fit, our Entrepreneur in Residence (EIR) Program might be a better fit. This 6-month, in-person program in Hong Kong, Shenzhen, New York, San Francisco, and Singapore provides funding, mentorship, and resources to help founders experiment, build, and validate ideas.",
     },
     {
       question: "How long does the application review take?",
